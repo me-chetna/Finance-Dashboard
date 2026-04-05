@@ -3,7 +3,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
 import { getCategoryTotals } from '../../utils/calculations';
 import { useApp } from '../../context/AppContext';
-import { categoryColors } from '../../data/mockData';
 
 export const CategoryComparisonChart: React.FC = () => {
   const { transactions } = useApp();
